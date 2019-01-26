@@ -1,7 +1,7 @@
 public void setup()
 {
   size(600,600);
-  background(0);
+  background(251, 255, 214);
 }
 
 public void draw()
@@ -12,7 +12,7 @@ public void draw()
 public void sierpinski(int x, int y, int len) 
 {
   fill((int)(Math.random()*255+50), (int)(Math.random()*255+50), (int)(Math.random()*255+50));
-  noStroke();
+  stroke(200);
   
   if(len <= 20)
   {
